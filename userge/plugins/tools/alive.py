@@ -55,7 +55,8 @@ async def alive(message: Message):
     **__Python__**: `{versions.__python_version__}`
     **__Pyrogram__**: `{versions.__pyro_version__}`
     
-    **Everyone bow before Akihito Senpai**"""
+    **Everyone bow before Akihito**
+              **Senpai**"""
     if not message.client.is_bot:
         output += f"""\n
 🎖 **{versions.__license__}** | 👥 **{versions.__copyright__}** | 🧪 **[Repo]({Config.UPSTREAM_REPO})**
